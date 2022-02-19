@@ -43,14 +43,15 @@ convertButton.onclick = () => {
   let html = input.value;
   console.log(html);
   let doc = new DOMParser().parseFromString(html, "text/xml");
+  console.log(doc);
 
-  let redomStr = toRedom(doc);
+  let redomStr = toRedom(doc.children[0]);
   outputDiv.innerText = redomStr;
 
   convertButton.disabled = false;
 };
-let ele: Element;
-let toRedom = (ele: XMLDocument | Element): string => {
+
+let toRedom = (ele: Element): string => {
   let out = "el(";
   if ("tagName" in ele) out += `"${ele.tagName}",`;
   let isFirstChild = true;
@@ -64,4 +65,3 @@ let toRedom = (ele: XMLDocument | Element): string => {
   out += ")";
   return out;
 };
-

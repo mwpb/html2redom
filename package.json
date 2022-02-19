@@ -1,7 +1,7 @@
 {
-  "name": "create-element-ify",
+  "name": "html2redom",
   "version": "0.0.1",
-  "description": "Convert HTML to createElement calls.",
+  "description": "Convert HTML to redom el calls.",
   "main": "index.js",
   "scripts": {
     "watch": "node esbuild.config.js dev",
