@@ -1,0 +1,19 @@
+{
+  "name": "create-element-ify",
+  "version": "0.0.1",
+  "description": "Convert HTML to createElement calls.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "createelement",
+    "HTML",
+    "typescript"
+  ],
+  "author": "Matthew Burke",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
+}
