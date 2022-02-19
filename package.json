@@ -4,6 +4,7 @@
   "description": "Convert HTML to createElement calls.",
   "main": "index.js",
   "scripts": {
+    "watch": "node esbuild.config.js dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +15,8 @@
   "author": "Matthew Burke",
   "license": "MIT",
   "dependencies": {
+    "esbuild": "^0.14.23",
+    "redom": "^3.27.1",
     "typescript": "^4.5.5"
   }
 }
