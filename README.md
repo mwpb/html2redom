@@ -1,2 +1,5 @@
-# create-element-ify
- Convert HTML to JavaScript createElement calls.
+# README
+
+Convert HTML TO redom el() calls.
+
+Quick UI is: [here](mwpb.github.io/html2redom) .
